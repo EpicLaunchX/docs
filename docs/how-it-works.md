@@ -49,6 +49,42 @@ GitHub Board - is the GitHub Project - Launch board for tracking your progress.
 
 Project Board - this is one of the crucial parts of the our platform, where you can learn more about Tasks, Hints for the tasks and How to Complete sections for each Launch.
 
-* Work on Issues: Navigate to your Project Board to see available tasks. Issues vary in points based on complexity.
-Send Pull Requests: Once you've completed work on an issue, commit your changes and send a pull request (PR) through GitHub. Make sure to link the PR to the specific issue it resolves.
-Earning Points: When a PR is merged, and the related issue is closed, points are automatically awarded to your account. The points system is transparent, with each issue and PR showing the potential points earnable.
+* Work on Tasks: Navigate to your Project Board to see available tasks. Tasks vary in points based on complexity of the Project.
+
+> Each Task corresponds the same GitHub Issue
+
+* Send Pull Requests: Once you've completed work on an issue, commit your changes and send a pull request (PR) through GitHub. Make sure to link the PR to the specific issue it resolves.
+
+* Earning Points: When a PR is merged, and the related issue is closed, points are automatically awarded to your account. The points system is transparent, with each issue and PR showing the potential points earnable.
+
+## Terminology we use
+
+* Sprints in EpicLaunchX is called Launches. Therefore, Projects are consisted of Launches and Launches are consisted of Tasks.
+
+* Project is something that static that you can read about, whenever you Launch the Project, it becomes a live entity, so called Active Project.
+
+* Tracks are the bigger units where Projects live.
+
+## Important Patterns to follow
+
+* According to best practices, in EpicLaunchX we do require some standards on Commit messages, PR names, Python folder structure.
+
+* For Project specific technical requirements you need to carefully read the Launch and Task requirements.
+
+* For General conventions and more please read [Features](features.md)
+
+## Flow
+
+```mermaid
+flowchart TD
+    A[Start] --> B[Sign Up with GitHub Account]
+    B --> C[Launch New Project]
+    C --> E[Work on Issues]
+    E --> F[Send Pull Requests]
+    F --> G[PR Merged and Issue closed]
+    G --> H[Earn Points]
+    H --> I[Track Progress on Dashboard and on Active Project details]
+    I --> J[Check Leaderboard]
+    J --> K{End}
+
+```
