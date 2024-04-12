@@ -85,6 +85,6 @@ flowchart TD
     G --> H[Earn Points]
     H --> I[Track Progress on Dashboard and on Active Project details]
     I --> J[Check Leaderboard]
-    J --> K{End}
+    J --> E
 
 ```
