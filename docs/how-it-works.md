@@ -2,74 +2,81 @@
 
 ## Intro
 
-Welcome to EpicLaunchX, where you can earn points and compete with other engineers by developing a real project using iterative approach.
+Welcome to EpicLaunchX, where you can earn points and compete with other engineers by developing real projects using an iterative approach. 
 
-Currently, we focus on Python projects and we try to deliver best practices by teaching real-world software engineering skills.
+We focus on Python projects and impart real-world software engineering skills.
 
-Our platform integrates directly with GitHub, allowing you to manage projects, track issues, and pull requests, and earn points for your contributions.
+Our platform integrates directly with GitHub, enabling project management, issue tracking, pull requests, and point rewards for contributions
 
 
 
 ### Step 1: Sign Up and Setup
 
-If you don't have GitHub account, you need to create one. Please visit [GitHub](https://github.com/signup) and create an account.
-We also strongly advice to add email to your GitHub account. To enable public email please visit [Adding an email address to your GitHub account](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/adding-an-email-address-to-your-github-account) page and proceed as described.
+If you don't have GitHub account, create one here [GitHub](https://github.com/signup).
+We recommend adding an email to your GitHub account. To enable your public email, visit the [Adding an email address to your GitHub account](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/adding-an-email-address-to-your-github-account) page.
 
-If you have ready-to-go GitHub account then signup in [EpicLaunchX](https://beta.epiclaunchx.io/accounts/signup/)
+Already have a GitHub account? Sign up with [EpicLaunchX](https://beta.epiclaunchx.io/accounts/signup/)
 
-> The only personal information we need is your username and email if activated in GitHub account.
+> We only require your GitHub username and email (if activated).
 
-After signup you will be redirected to the [Interests](https://beta.epiclaunchx.io/interests/) page to choose your interest such as Backend Development or Frontend Development, etc.
+After signing up, you'll select your [Interests](https://beta.epiclaunchx.io/interests/) (e.g, Backend Development or Frontend Development, etc)
+followed by tracking progress on the [Dashboards](https://beta.epiclaunchx.io/dashboard/) page.
 
-After Interests you will be redirected to the [Dashboards](https://beta.epiclaunchx.io/dashboard/) page to track your progress.
+---
 
+### Step 2: Launch Your First Project
 
-### Step 2: Launch your first Project
-
-* Select Your Project: From your dashboard, choose the Project you want to Launch, see the details of the Project and then click the `Launch project` button.
-In project details you can see, important information, such as how much points you will earn if you complete the project, how many `Launches(Sprints)` you need to complete the project and the total number of the tasks in the Project.
+1. Select Your Project: Choose a project from your dashboard, review project details, and click "Launch Project." Details include potential points, number of launches(sprints) required, and total project tasks categorized by complexity (Easy, Medium, Hard).
 
 ![Project Details](assets/project_details.png)
 
-> Projects have complexity level: Easy, Medium and Hard and vary in points based in the complexity.
+2. Automated Repository Creation: Upon launch, our platform creates a GitHub repository under your account with an initial sprint board and issues.
 
-* Automated Repository Creation: Upon project launch, our platform automatically creates a new GitHub repository under your account and sets up the initial sprint board and issues
-* Collaboration Setup: You'll be added as a collaborator to this new repository.
+3. Collaboration Setup: You'll be added as a collaborator to this new repository.
+
+
+---
 
 ### Step 3: Earn Points by Contributing
 
-After successful Launch you will see three main links: GitHub Repo, GitHub Board and Project Board:
+After a successful launch:
 
 ![Launch Success](assets/launch_success.png)
 
-GitHub Repo - the repo just created in our GitHub Organization and you have been added as a collaborator to this repo. 
-Therefore, before going further, you need to accept the collaborator invitation at GitHub.
+- GitHub Repo: Access the newly created repo where you're a collaborator. Accept the invitation if needed.
 
-GitHub Board - is the GitHub Project - Launch board for tracking your progress.
+- GitHub Board: Utilize the GitHub Project - Launch board to track progress.
 
-Project Board - this is one of the crucial parts of the our platform, where you can learn more about Tasks, Hints for the tasks and How to Complete sections for each Launch.
+- Project Board: A key platform component providing task details, hints, and completion guidelines for each sprint.
 
-* Work on Tasks: Navigate to your Project Board to see available tasks. Tasks vary in points based on complexity of the Project.
+
+### Workflow
+
+1. Work on Tasks: Check your Project Board for available tasks, categorized by complexity.
 
 > Each Task corresponds the same GitHub Issue
 
-* Send Pull Requests: Once you've completed work on an issue, commit your changes and send a pull request (PR) through GitHub. Make sure to link the PR to the specific issue it resolves.
+2. Send Pull Requests: Commit changes, send pull requests via GitHub, linking them to specific issues.
 
-* Earning Points: When a PR is merged, and the related issue is closed, points are automatically awarded to your account. The points system is transparent, with each issue and PR showing the potential points earnable.
+3. Earning Points: Points are awarded upon PR merge and issue closure, with transparent point allocation visible for each task.
 
-## Terminology we use
 
-* Sprints in EpicLaunchX is called Launches. Therefore, Projects are consisted of Launches and Launches are consisted of Tasks.
+---
 
-* Project is something that static that you can read about, whenever you Launch the Project, it becomes a live entity, so called Active Project.
+### Terminology We Use
 
-* Tracks are the bigger units where Projects live.
+- Launches: Sprints within EpicLaunchX; Projects consist of Launches and Launches consist of Tasks.
 
-## Important Patterns to follow
+- Active Project: A live entity after launch.
 
-* According to best practices, in EpicLaunchX we do require some standards on Commit messages, PR names, Python folder structure.
+- Tracks: Higher-level units where Projects reside.
 
-* For Project specific technical requirements you need to carefully read the Launch and Task requirements.
+
+---
+
+## Important Patterns to Follow
+
+Follow best practices for Commit messages, PR names, and Python folder structure. Review Launch and Task requirements for technical specifics.
 
 * For General conventions and more please read [Features](features.md)
 
