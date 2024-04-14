@@ -78,7 +78,7 @@ After a successful launch:
 
 Follow best practices for Commit messages, PR names, and Python folder structure. Review Launch and Task requirements for technical specifics.
 
-* For General conventions and more please read [Features](features.md)
+* For General conventions and more please read [Standards and Conventions](./standards-conventions.md)
 
 ## Flow
 

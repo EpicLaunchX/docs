@@ -1,11 +1,21 @@
-# Homepage
+# Welcome to EpicLaunchX
 
 
-!!! success "EpicLaunchX"
-    EpicLaunchX is a unique platform to learn best practices of software development in Python!
+!!! success "Discover Python Best Practices"
+    Dive into a unique learning platform where you can master the best practices of software development in Python. Engage, learn, and grow with us!
 
-    For any questions, please find us in our [Discord](https://discord.gg/2R4BdaczUG)
+## Connect with us
 
-* For understanding EpicLaunchX platform flow and how to earn points, please read our [How it works?](./how-it-works.md) guide.
+For any questions, please find us in our [Discord](https://discord.gg/2R4BdaczUG)
 
-* For getting more insights and learning about our standards and conventions please read our [Features](./features.md) guide.
+
+## Explore Our Resources:
+
+* Understand the EpicLaunchX platform flow and learn how to earn points by visiting our [How it works?](./how-it-works.md) guide.
+
+* Gain insights into our platform and explore our unique features through our [Features](./features.md) guide.
+
+* Familiarize yourself with our expectations and required practices by reviewing our [Standards and Conventions](./standards-conventions.md).
+
+
+Dive in and start your journey towards mastering Python with EpicLaunchX today!

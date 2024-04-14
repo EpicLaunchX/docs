@@ -38,4 +38,8 @@ When the you Launch a Project, the app will create:
 
 > Please see, [How it works?](./how-it-works.md) for more details on the features above.
 
-- At EpicLaunchX, Tasks are part of Launches and Launches are part of the Projects. You can think about Launches as special type of Sprints.
+- At EpicLaunchX, Tasks are part of Launches and Launches are part of the Projects. You can think about Launches as a special type of Sprints.
+
+- Dashboard the main statistics and projects page.
+
+- Leaderboard where you can see other engineers progress.
