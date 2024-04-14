@@ -1,4 +1,8 @@
 site_name: EpicLaunchX
+site_description: Discover Software Engineering Best Practices
+strict: true
+site_url: https://docs.epiclaunchx.io
+
 theme:
   name: material
   logo: assets/logo.png
