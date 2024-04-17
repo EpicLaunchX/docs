@@ -6,10 +6,10 @@
 
 ## Connect with us
 
-For any questions, please find us in our [Discord](https://discord.gg/2R4BdaczUG)
+For any questions, please find us in our [Discord](https://discord.gg/2R4BdaczUG){:target="_blank"}
 
 
-## Explore Our Resources:
+## Explore Our Resources
 
 * Understand the EpicLaunchX platform flow and learn how to earn points by visiting our [How it works?](./how-it-works.md) guide.
 
