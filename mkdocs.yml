@@ -3,6 +3,13 @@ site_description: Discover Software Engineering Best Practices
 strict: true
 site_url: https://docs.epiclaunchx.io
 
+nav:
+  - Home: "index.md"
+  - 'How it works?': "how-it-works.md"
+  - 'Features': "features.md"
+  - 'Standards and Conventions': "standards-conventions.md"
+  - 'Resources': "resources.md"
+
 theme:
   name: material
   logo: assets/logo.png

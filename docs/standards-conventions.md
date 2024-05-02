@@ -24,6 +24,21 @@ Learn more: [Linking a pull request to an issue using a keyword](https://docs.gi
 Unit Testing: Implement and pass unit tests to fulfill the Test and Coverage checks before requesting a PR review.
 > We use [pytest](https://docs.pytest.org/en/8.0.x/) as test library
 
+## Automated PR review
+
+If the Code and Test implementation is all correct and align with the Task description, then you will likely see the Approval, from real GitHub user:
+
+![Approval](./assets/approval.png)
+
+If the review fails for the Code changes, the Changes will be Requested as:
+
+![CodeReview](./assets/code_review.png)
+
+If the review fails for the Test implementation, the Changes will be Requested as:
+
+![TestReview](./assets/test_review.png)
+
+This will simplify to localize the review process at certain level. By reading the review comment you understand either your Code implementation is incorrect or the Test implementation.
 
 ## Setting Up the Project
 
