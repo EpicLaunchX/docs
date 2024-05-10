@@ -9,6 +9,7 @@ nav:
   - 'Features': "features.md"
   - 'Standards and Conventions': "standards-conventions.md"
   - 'Resources': "resources.md"
+  - 'FAQ': "faq.md"
 
 theme:
   name: material
