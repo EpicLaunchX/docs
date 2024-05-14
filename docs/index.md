@@ -17,5 +17,7 @@ For any questions, please find us in our [Discord](https://discord.gg/2R4BdaczUG
 
 * Familiarize yourself with our expectations and required practices by reviewing our [Standards and Conventions](./standards-conventions.md).
 
+* See available community resources [Resources](./resources.md)
+
 
 Dive in and start your journey towards mastering Python with EpicLaunchX today!
