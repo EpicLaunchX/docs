@@ -5,6 +5,8 @@ FROM python:3.10-slim AS build
 ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1
 
+RUN apt install libcairo2 libcairo2-dev -y
+
 # Create and set the working directory
 WORKDIR /app
 
