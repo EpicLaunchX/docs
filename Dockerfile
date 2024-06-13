@@ -1,4 +1,5 @@
-FROM python:3.10-slim
+# Stage 1: Build the mkdocs site
+FROM python:3.10-slim AS build
 
 # Set environment variables to prevent Python from writing .pyc files
 ENV PYTHONDONTWRITEBYTECODE 1
@@ -16,8 +17,17 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy the entire project to the working directory
 COPY . /app/
 
-# Expose the port that mkdocs will run on
-EXPOSE 9999
+# Build the mkdocs site
+RUN mkdocs build
 
-# Command to run the mkdocs server
-CMD ["mkdocs", "serve", "--dev-addr=0.0.0.0:9999"]
+# Stage 2: Serve the built site with Nginx
+FROM nginx:alpine
+
+# Copy the built site from the previous stage
+COPY --from=build /app/site /usr/share/nginx/html
+
+# Expose the port that Nginx will run on
+EXPOSE 80
+
+# Command to run Nginx
+CMD ["nginx", "-g", "daemon off;"]
