@@ -2,7 +2,7 @@
 
 ## Intro
 
-Welcome to EpicLaunchX, where you can earn points and compete with other engineers by developing real projects using an iterative approach. 
+Welcome to [EpicLaunchX](https://beta.epiclaunchx.io/), where you can earn points and compete with other engineers by developing real projects using an iterative approach. 
 
 We focus on Python projects and impart real-world software engineering skills.
 
@@ -32,6 +32,10 @@ followed by tracking progress on the [Dashboards](https://beta.epiclaunchx.io/da
 1. Select Your Project: Choose a project from your dashboard, review project details, and click "Launch Project." Details include potential points, number of launches(sprints) required, and total project tasks categorized by complexity (Easy, Medium, Hard).
 
 ![Project Details](assets/project_details.png)
+
+In the Write-ups section, you can find public resources for this project to use as supplementary learning materials:
+
+![Writeups](assets/writeups.png)
 
 2. Automated Repository Creation: Upon launch, our platform creates a GitHub repository under your account with an initial sprint board and issues.
 
