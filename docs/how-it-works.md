@@ -6,21 +6,24 @@ Welcome to EpicLaunchX, where you can earn points and compete with other enginee
 
 We focus on Python projects and impart real-world software engineering skills.
 
-Our platform integrates directly with GitHub, enabling project management, issue tracking, pull requests, and point rewards for contributions
+Our platform integrates directly with GitHub, enabling project management, issue tracking, pull requests, and point rewards for contributions.
 
+We recommend watching our Beta Demo Video:
+
+[![EpicLaunchX Beta Demo](https://img.youtube.com/vi/pHyYsLbIl5A/0.jpg)](https://www.youtube.com/watch?v=pHyYsLbIl5A){:target="_blank"}
 
 
 ### Step 1: Sign Up and Setup
 
-If you don't have GitHub account, create one here [GitHub](https://github.com/signup).
-We recommend adding an email to your GitHub account. To enable your public email, visit the [Adding an email address to your GitHub account](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/adding-an-email-address-to-your-github-account) page.
+If you don't have GitHub account, create one here [GitHub](https://github.com/signup){:target="_blank"}.
+We recommend adding an email to your GitHub account. To enable your public email, visit the [Adding an email address to your GitHub account](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/adding-an-email-address-to-your-github-account){:target="_blank"} page.
 
-Already have a GitHub account? Sign up with [EpicLaunchX](https://beta.epiclaunchx.io/accounts/signup/)
+Already have a GitHub account? Sign up with [EpicLaunchX](https://beta.epiclaunchx.io/accounts/signup/){:target="_blank"}
 
 > We only require your GitHub username and email (if activated).
 
-After signing up, you'll select your [Interests](https://beta.epiclaunchx.io/interests/) (e.g, Backend Development or Frontend Development, etc)
-followed by tracking progress on the [Dashboards](https://beta.epiclaunchx.io/dashboard/) page.
+After signing up, you'll select your [Interests](https://beta.epiclaunchx.io/interests/){:target="_blank"} (e.g, Backend Development or Frontend Development, etc)
+followed by tracking progress on the [Dashboards](https://beta.epiclaunchx.io/dashboard/){:target="_blank"} page.
 
 ---
 
